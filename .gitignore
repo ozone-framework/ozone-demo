@@ -1,0 +1,8 @@
+.idea
+composer.lock
+.env
+storage/cache
+bower_components
+node_modules
+vendor
+public/uploads

@@ -1,0 +1,10 @@
+{% extends '@Site/layout.twig' %}
+{% block title %} Example Modules{% endblock %}
+{% block content %}
+    <h1>Example Module</h1>
+    <ul>
+        {% for row in results %}
+        <li>{{ row.title }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
